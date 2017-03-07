@@ -1,0 +1,102 @@
+body{
+	background-color: black;
+}
+.top{
+	
+	height: 60px;
+    width: 90%;
+    margin:0 auto;
+	background-color:rgb(33,137,190);
+}
+.main{
+	width: 90%;
+	height: 900px;
+	margin: 0 auto;
+	display: flex;
+}
+.left{
+	display: flex;
+	flex:2;
+	background-color: rgb(43,46,61);
+
+
+}
+.right{
+	display: flex;
+	flex:8;
+	background-color: rgb(238,238,238);
+}
+#logo{
+	position: relative;
+	top: 11px;
+	left: 60px;
+	width:50px;
+}
+.search_login{
+
+    float: right;
+    margin-right: 120px;
+    
+    margin-top:-15px;
+}
+#search{
+	width: 260px;
+	line-height: 20px;
+    border-radius: 15px;
+    cursor:pointer;
+    text-indent:30px;
+    box-shadow:5px;
+    background: url("./images/task_1_9_1-(1)_06.gif") no-repeat;
+    background-position:5px 2px;
+    background-color: #fff;
+    margin-right: 20px;
+}
+#login{
+	float: right;
+	margin-top: 5px;
+}
+.person{
+	display: flex;
+	height: 150px;
+	flex:1;
+	
+	flex-direction:column;
+}
+.head{
+	padding: 30px;
+	display: flex;
+	flex:2;
+	padding-left: 60px;
+}
+
+.head > a > h2{ 
+	display:inline-block;
+	color: #FFF;
+	margin-left: 10px;
+	margin-top: 17px;
+}
+h3{
+	color:rgb(94,110,126);
+}
+.info{
+	display: flex;
+	flex:2;
+	 }
+#collect{
+	display: flex;
+	flex:2;
+	
+	flex-direction:column;
+	justify-content:center;	
+	padding-left:40px;
+	border-right: solid 2px #dedede;
+	margin: 10px;
+}
+#fans{
+	display: flex;
+	flex:2;	
+	flex-direction:column;
+	justify-content:center;
+	padding-left: 8px;
+	margin: 15px;
+}
