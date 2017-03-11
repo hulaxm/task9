@@ -4,27 +4,33 @@ body{
 .top{
 	
 	height: 60px;
-    width: 90%;
+    width: 1276px;
     margin:0 auto;
 	background-color:rgb(33,137,190);
 }
 .main{
-	width: 90%;
+	width: 1276px;
 	height: 900px;
 	margin: 0 auto;
 	display: flex;
+
 }
 .left{
 	display: flex;
-	flex:2;
+	width: 260px;
 	background-color: rgb(43,46,61);
+    flex-wrap:wrap;
+    color:rgb(106,124,144);
+
 
 
 }
 .right{
-	display: flex;
-	flex:8;
+	 
+	width: 1020px;
 	background-color: rgb(238,238,238);
+     
+
 }
 #logo{
 	position: relative;
@@ -58,9 +64,10 @@ body{
 .person{
 	display: flex;
 	height: 150px;
-	flex:1;
+	flex-wrap:wrap;
+	background-color: rgb(42,46,61);
 	
-	flex-direction:column;
+	
 }
 .head{
 	padding: 30px;
@@ -99,4 +106,57 @@ h3{
 	justify-content:center;
 	padding-left: 8px;
 	margin: 15px;
+}
+.spread{
+    display: flex;
+	color: #fff;
+	padding:15px;
+	height: 700px;
+	display: block;
+	justify-content:center;
+	 
+}
+
+.list{
+    margin-left: 45px;
+    display: block;
+    color: rgb(77,90,107); 
+    margin-top: 20px;
+}
+.list li{
+	margin: 23px;
+}
+.list li img{
+	margin-right: 13px;
+}
+.list li a {
+	color:rgb(106,124,144);
+}
+.select{
+	color:#FFF;	
+}
+.main-right-top{
+	background-color: #fff;
+    display: block;
+    width: 990px;
+    height: 30px;
+    padding-top: 10px;
+    padding-left: 30px;
+     
+     
+}
+.main-right-top a {
+	color: rgb(176,176,176);
+	margin-left: 8px;
+}
+.main-right-top a:last-child{
+	color: rgb(117,160,198);
+}
+.main-search{
+	 
+    margin: 20px auto;
+    width: 890px;
+    height: 80px;
+	border:solid 1px rgb(221,223,225);
+	background-color: #fff;
 }
